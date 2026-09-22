@@ -26,8 +26,16 @@
         <p>Replace the placeholder media paths with your own image variants, then document the format, size, source, and accessibility purpose.</p>
       </div>
       <figure class="hero-media">
-        <div class="placeholder-image" role="img" aria-label="Placeholder for a responsive garden workshop image"></div>
-        <figcaption>Replace this placeholder with responsive image markup and real asset notes.</figcaption>
+        <img src="Bridge-800.jpg" 
+          srcset= 
+           "Bridge-400.jpg 400w, 
+            Bridge-800.jpg 800w, 
+            Bridge-1200.jpg 1200w" 
+          sizes="(max-width: 768px) 100vw, 50vw" 
+          width="1200"
+          height="800"
+          alt="Curved wooden footbridge crossing a small pond in a landscaped garden surrounded by trees and large rocks." >
+        <figcaption>A peaceful garden footbridge used to demonstrate responsive image loading and accessible image markup. </figcaption>
       </figure>
     </section>
 
